@@ -1,0 +1,70 @@
+body{
+    background-color: #F4F7F6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 5px;
+    letter-spacing: 0.1em;
+  }
+  
+#lblFiltro{
+    background-color: #0369D9;
+    color: white;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 5px;
+    margin-left: 7%;
+    margin-bottom: -25px;
+}
+
+#filtro{
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#relatorio{
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.espaco{
+    margin: 10px;
+    border: 1px solid gray;
+    width: 100%;
+}
+
+
+
+.espaco-btn{
+    margin: 10px auto;
+
+}
+
+.espaco-container{
+    padding: 20px 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.espaco-container-{
+    text-align: center;
+}
+.separador{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    content: "";
+    width: 1200px;
+    height: 3px;
+    background: gray;
+}
+
+.separador2{
+    padding: 10px;
+}
+
+.estilo-texto{
+    text-transform: uppercase;
+    margin: 20px auto;
+}

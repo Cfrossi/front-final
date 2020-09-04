@@ -1,0 +1,16 @@
+body{
+    background-image: url('./bg.jpg');
+    background-repeat: repeat;
+}
+.container{
+    background-color: white;
+    height: 100%;
+}
+
+.linhaPar{
+    background-color: white;
+}
+.linhaImpar{
+    background-color: lightslategray;
+    color: white;
+}

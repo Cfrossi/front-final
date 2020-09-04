@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="dashboard.css">
+
+    <script type="text/javascript" src="dashboard.js"></script>
+    <title>.: Dashboard de Agendamentos :.</title>
+</head>
+<body onload="carregaInfo()">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>Gestor de Agendamentos</h3>
+            </div>
+        </div>
+        <div id="dadosUsuario">
+            ** aqui quero que vá a parte de info do usuario **
+        </div>
+        <div class="row separador2">
+        </div>
+        <div class="row separador"></div>
+
+        <label for="filtro" id="lblFiltro">Filtro</label>
+        <div class="row" id="filtro">
+            <div class="col-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+                <select id="selectFiltro" class="form-control form-control-lg">
+                    <option value=0>Solicitação Inicial</option>
+                    <option value=1>Aprovada</option>
+                    <option value=2>Negada</option>
+                    <option value=3>Cancelada</option>
+                    <option value=-1>Todas</option>
+                </select>
+
+            </div>
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                <button class="btn btn-primary" onclick="filtrarStatus()">Aplicar</button>
+            </div>
+        </div>
+        <label for="relatorio" id="lblRelatorio" class="estilo-texto">Solicitações</label>
+        <div id="relatorio">
+            ** aqui vem o relatório **
+
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

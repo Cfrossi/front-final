@@ -1,0 +1,47 @@
+body{
+  background-color: #F4F7F6;
+}
+.container {
+  border: 1px solid gray;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px 10px;
+  
+}
+
+.header{
+  background-color: #BABABA;
+}
+
+.header_menu{
+  display: inline-block;
+  font-size: 36px;
+}
+
+.header_menu p{
+  color:black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.estilo::after{
+  content: "";
+  display: block;
+  width: 400px;
+  height: 2px;
+  background-color: black;
+  margin: 20px   auto;
+}
+
+.detalhes {
+  display: block;
+}
+
+
+.btn-enviar-solicitacao button{
+  width: 200px;
+  margin: 0 auto;
+}
+
