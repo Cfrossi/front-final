@@ -1,7 +1,7 @@
 body{
-  background-color: #F4F7F6;
+  background-color: #ffffff
 }
-.container {
+.container-borda {
   border: 1px solid gray;
   padding: 20px;
   margin-top: 10px;
@@ -10,26 +10,27 @@ body{
 }
 
 .header{
-  background-color: #BABABA;
+    background-color: orange;
+    top: 0;
+    width: 100%;
 }
 
-.header_menu{
-  display: inline-block;
-  font-size: 36px;
+.header-menu{
+    display: inline-block;
+
 }
 
-.header_menu p{
-  color:black;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.header-menu p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-transform: uppercase;
 
 }
 
 .estilo::after{
   content: "";
   display: block;
-  width: 400px;
+  width: 80%;
   height: 2px;
   background-color: black;
   margin: 20px   auto;

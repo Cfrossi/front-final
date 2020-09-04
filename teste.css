@@ -1,16 +1,17 @@
-body{
-    background-image: url('./bg.jpg');
-    background-repeat: repeat;
-}
-.container{
-    background-color: white;
-    height: 100%;
+.header{
+    background-color: orange;
+    top: 0;
+    width: 100%;
 }
 
-.linhaPar{
-    background-color: white;
+.header-menu{
+    display: inline-block;
+
 }
-.linhaImpar{
-    background-color: lightslategray;
-    color: white;
+
+.header-menu p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-transform: uppercase;
+
 }

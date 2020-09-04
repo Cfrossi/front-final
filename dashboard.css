@@ -1,5 +1,5 @@
 body{
-    background-color: #F4F7F6;
+    background-color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 5px;
     letter-spacing: 0.1em;
@@ -55,9 +55,11 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     content: "";
-    width: 1200px;
+    width: 100%;
     height: 3px;
     background: gray;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .separador2{
@@ -68,3 +70,46 @@ body{
     text-transform: uppercase;
     margin: 20px auto;
 }
+
+.info-user{
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.header{
+    background-color: orange;
+    top: 0;
+    width: 100%;
+}
+
+.header-menu{
+    display: inline-block;
+    margin-left: 20px;
+
+}
+
+.header-menu p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    text-transform: uppercase;
+
+}
+
+  .principal{
+      padding-top: 10px;
+  }
+
+  .txtarea{
+      text-align: center;
+  }
+
+  textarea{
+      margin-left: 5%;
+      margin-right: 5%;
+      width: 90%;
+  }
+
+
+  .btn-alinha{
+      text-align: right;
+  }

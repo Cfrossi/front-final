@@ -10,13 +10,21 @@
     <title>.: Dashboard de Agendamentos :.</title>
 </head>
 <body onload="carregaInfo()">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h3>Gestor de Agendamentos</h3>
-            </div>
+
+    <header class="header">
+        <div class="container">
+                <img src="../front-final//img/teste.PNG" width="100px" height="100px">
+                <div class="header-menu">
+                    <p>Gestão de Agendamento</p>
+                </div>
         </div>
-        <div id="dadosUsuario">
+    </header>
+
+    <div class="container principal">
+        <div class="row">
+
+        </div>
+        <div id="dadosUsuario" class="info-user">
             ** aqui quero que vá a parte de info do usuario **
         </div>
         <div class="row separador2">
@@ -37,6 +45,8 @@
             </div>
             <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                 <button class="btn btn-primary" onclick="filtrarStatus()">Aplicar</button>
+                <div id="exportar">
+                </div>
             </div>
         </div>
         <label for="relatorio" id="lblRelatorio" class="estilo-texto">Solicitações</label>
